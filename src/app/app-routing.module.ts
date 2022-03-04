@@ -8,8 +8,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'crud',
     pathMatch: 'full'
+  },
+  {
+    path: 'crud',
+    loadChildren: () => import('./paginas/crud/crud.module').then( m => m.CrudPageModule)
   },
 ];
 
