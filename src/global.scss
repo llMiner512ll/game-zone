@@ -23,16 +23,16 @@
   .formHeader {
     height: 50px;
     text-align: center;
+    margin-top:45%;
   }
   
   .navArrow2 {
-    color: rgb(248, 0, 227);
+    color: white;
     margin-left: 0px;
     margin-top: auto;
     margin-bottom: auto;
     display: block;
     vertical-align: center;
-  
   
   }
   
@@ -40,5 +40,15 @@
     margin:auto;
     display:block;
     vertical-align: center;
+    color: white;
+    font-weight: 900;
+    background-color:#424867;
   
   }
+  ion-item{ //letras 
+    font-size: 20px;
+    display:block;
+    vertical-align: center;
+
+  }
+  
