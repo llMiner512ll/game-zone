@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'crud',
+    redirectTo: 'home', //ignorar esto, solo fue para hacer pruebas, al final se usara el inicio real
     pathMatch: 'full'
   },
   {
