@@ -15,6 +15,7 @@ const routes: Routes = [
     path: 'sesion',
     loadChildren: () => import('./paginas/sesion/sesion.module').then( m => m.SesionPageModule)
   },
+  
 ];
 
 @NgModule({
