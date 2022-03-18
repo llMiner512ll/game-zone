@@ -3,17 +3,23 @@
     <ion-header
       class="formHeader"
       color="talkColor">
-      
+   
       <ion-icon
         class="navArrow2"
         name="md-arrow-round-back"
       ></ion-icon> 
  
+      
       <ion-title class="tituloTab">GAME ZONE</ion-title>
-    </ion-header>
-  </ion-input>
+      <ion-button  [routerLink]="['/registro']" color="primary">Registro</ion-button>
+      <ion-button  [routerLink]="['/sesion']"  color="primary">Iniciar sesion</ion-button>
+   
 
-  <ion-button  [routerLink]="['/registro']" color="primary">Registro</ion-button>
-  <ion-button  [routerLink]="['/sesion']"  color="primary">Iniciar sesion</ion-button>
+</ion-header>
+</ion-input>
+
+
+
+
 
 </ion-content>

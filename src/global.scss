@@ -52,3 +52,20 @@
 
   }
   
+  body {
+    height: 1400px;
+    width: 1800px;
+    background-image: url ("/assets/Imagen1.png");
+    background-size: cover;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #424867;
+  } 
+  
+  h3{
+    color: black;
+    text-align: center;
+    font-size: medium;
+  }
