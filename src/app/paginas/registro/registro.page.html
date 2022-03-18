@@ -2,13 +2,14 @@
   <ion-input>
     <ion-header
       class="formHeader"
-      color="talkColor"
-    >
+      color="talkColor">
+      
       <ion-icon
         class="navArrow2"
         name="md-arrow-round-back"
       ></ion-icon>
 
+      
       <ion-title class="tituloTab">Formulario de Registro</ion-title>
     </ion-header>
   </ion-input>
@@ -43,6 +44,7 @@
     <ion-input type="password"></ion-input>
   </ion-item>
 
-   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-  <ion-button>Guardar</ion-button>
+   
+  &nbsp;&nbsp; &nbsp;&nbsp;<ion-button [routerLink]="['/home']">GUARDAR</ion-button>
+  <ion-button [routerLink]="['/home']">CANCELAR</ion-button>
 </ion-content>

@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+interface Componente{
+  icon: string;
+  name: string;
+  redirectTo: string;
+}
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,6 +12,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  Componentes: Componente []=[
+    {
+      icon: 'mail-unread-outline',
+      name: 'Home',
+      redirectTo: '/home'
+    }
+  ];
   constructor() {}
 
+  ngOnInit() {
+  }
 }
