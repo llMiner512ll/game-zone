@@ -1,0 +1,49 @@
+<ion-content>
+    <ion-card>
+        <ion-item color="primary">
+            <ion-label position="floating">Nombre del juego</ion-label>
+            <ion-input 
+            type= 'text'
+            placeholder= 'Nombre'
+            ></ion-input>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item color="primary">
+            <ion-label position="floating">Descripción</ion-label>
+            <ion-textarea 
+            placeholder= 'Descripción'
+            ></ion-textarea>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item color="primary">
+            <ion-label position="floating">Precio</ion-label>
+            <ion-input 
+            type= 'number'
+            placeholder= 'Precio'
+            ></ion-input>
+        </ion-item>
+    </ion-card>
+    <ion-card>
+        <ion-item color="primary">
+            <ion-label position="floating">Cantidad</ion-label>
+            <ion-input 
+            type= 'number'
+            placeholder= 'Cantidad'
+            ></ion-input>
+        </ion-item>
+    </ion-card>
+    <ion-badge color="light">
+        <ion-button color="success"  shape="round">
+            Guardar
+        </ion-button>
+    </ion-badge>
+
+    <ion-badge color="light">
+    <ion-button [routerLink]="['/home']"color="danger" shape="round">
+        Regresar
+    </ion-button>
+    </ion-badge>
+
+</ion-content>
